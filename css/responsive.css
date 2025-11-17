@@ -31,15 +31,15 @@
         padding-right: 15px;
     }
 
-    ul {
+    footer ul {
         display: flex;
         flex-wrap: wrap;
     }
 
-    li {
+    /* li {
         flex-basis: 33%;
-    }
-}
+    }*/
+} 
 
 /* responsive per desktop */
 @media screen and (min-width:992px) {
@@ -53,6 +53,7 @@
 
     .recipe-video {
         flex-basis: 65%;
+        height: 24vw;
     }
 
     .recipe-info {
