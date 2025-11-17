@@ -1,6 +1,17 @@
 /* Soluzione qui */
 
 /* responsive per tablet */
+@media  screen and (min-width:576px) {
+    img {
+        float: left;
+        padding-right: 15px;
+    }
+    .btn {
+        flex-grow: 1;
+    }
+    
+}
+
 @media screen and (min-width:768px) {
     .recipe-origin {
         display: inline;
@@ -18,18 +29,18 @@
         font-size: 3.5em;
     }
 
-    .btn {
+    /* .btn { 
         flex-grow: 1;
-    }
+    }*/
 
     .ads {
         display: block;
     }
 
-    img {
+    /* img { 
         float: left;
         padding-right: 15px;
-    }
+    }*/
 
     footer ul {
         display: flex;
