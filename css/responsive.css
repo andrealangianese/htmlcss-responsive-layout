@@ -1,0 +1,77 @@
+/* Soluzione qui */
+
+/* responsive per tablet */
+@media screen and (min-width:768px) {
+    .recipe-origin {
+        display: inline;
+    }
+
+    .recipe {
+        padding: 5px;
+    }
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    #logo {
+        font-size: 3.5em;
+    }
+
+    .btn {
+        flex-grow: 1;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    img {
+        float: left;
+        padding-right: 15px;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        flex-basis: 33%;
+    }
+}
+
+/* responsive per desktop */
+@media screen and (min-width:992px) {
+    #logo {
+        font-size: 4em;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        flex-basis: 65%;
+    }
+
+    .recipe-info {
+        flex-basis: 35%;
+    }
+
+    ul {
+        display: block;
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: flex-end; */
+    }
+
+    
+}
